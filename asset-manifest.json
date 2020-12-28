@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfileo/static/css/main.6635844c.chunk.css",
+    "main.js": "/React-Portfileo/static/js/main.0e92a7e5.chunk.js",
+    "main.js.map": "/React-Portfileo/static/js/main.0e92a7e5.chunk.js.map",
+    "runtime-main.js": "/React-Portfileo/static/js/runtime-main.4153e651.js",
+    "runtime-main.js.map": "/React-Portfileo/static/js/runtime-main.4153e651.js.map",
+    "static/js/2.6b8918a4.chunk.js": "/React-Portfileo/static/js/2.6b8918a4.chunk.js",
+    "static/js/2.6b8918a4.chunk.js.map": "/React-Portfileo/static/js/2.6b8918a4.chunk.js.map",
+    "index.html": "/React-Portfileo/index.html",
+    "static/css/main.6635844c.chunk.css.map": "/React-Portfileo/static/css/main.6635844c.chunk.css.map",
+    "static/js/2.6b8918a4.chunk.js.LICENSE.txt": "/React-Portfileo/static/js/2.6b8918a4.chunk.js.LICENSE.txt",
+    "static/media/background.f6814621.webp": "/React-Portfileo/static/media/background.f6814621.webp",
+    "static/media/logow.a88d1078.png": "/React-Portfileo/static/media/logow.a88d1078.png",
+    "static/media/profile.cb4591a7.jpg": "/React-Portfileo/static/media/profile.cb4591a7.jpg",
+    "static/media/slide1.14619b04.webp": "/React-Portfileo/static/media/slide1.14619b04.webp",
+    "static/media/slide2.d58e7971.webp": "/React-Portfileo/static/media/slide2.d58e7971.webp",
+    "static/media/slide3.ea32b5ab.webp": "/React-Portfileo/static/media/slide3.ea32b5ab.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4153e651.js",
+    "static/js/2.6b8918a4.chunk.js",
+    "static/css/main.6635844c.chunk.css",
+    "static/js/main.0e92a7e5.chunk.js"
+  ]
+}
