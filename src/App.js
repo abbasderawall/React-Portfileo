@@ -1,7 +1,7 @@
 
 import './App.css';
 //Components
-
+import React from "react";
 import Mynavbar from './components/navbar/navbar.component'
 import MyCarousel from './components/carousel.components/my-carousel.compnent'
 import TitleMessage from './components/title-message/title-message.compnent';
@@ -11,7 +11,8 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
-import bgImages from './assets/img/parallex/background.webp'
+import bgImages from './assets/img/parallex/background.webp';
+import TechnicalSkills from './pages/skills/TechnicalSkills';
 
 const App=() => {
   return (
@@ -35,7 +36,15 @@ const App=() => {
             </Container>
           </div>
         </Parallax>
+
+       
       </div>
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <TechnicalSkills/>
+        </Slide>
+      </Container>
     
     </div>
   );
