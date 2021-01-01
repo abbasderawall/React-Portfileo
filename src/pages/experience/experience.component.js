@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import L_EMClogo from "../../assets/img/experience/EMClogo.svg";
+import L_logofamz from "../../assets/img/experience/logofamz.svg";
+import L_logoDIT from "../../assets/img/experience/logoDIT.svg"
 import Tilt from "react-tilt";
 import "./experience.style.css";
 
@@ -17,7 +19,10 @@ export class Experience extends Component {
                 <Tilt options={{ max: 25 }}>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                      <Card.Img variant="top" className="img-resize" src={L_EMClogo} alt="Emcentrix logo" />
+                    <a className="text-dark text-decoration-none" href="https://www.emcentrix.com/" target="_blank" rel="noopener noreferrer">
+                    <Card.Img variant="top" className="img-resize" src={L_EMClogo} alt="Emcentrix logo" />
+                            </a>
+                      
                     </Card.Header>
                     <Card.Body className="d-flex justify-content-center flex-column">
                       <div>
@@ -50,6 +55,115 @@ export class Experience extends Component {
                             </li>
                             
       
+                          </ul>
+                          
+                          
+                        </Card.Text>
+                      </div>
+                    </Card.Body>
+
+              
+                  </Card>
+                </Tilt>
+              </Container>
+            </Jumbotron>
+            {/* Experience 2 */}
+            <Jumbotron className="jumbo-style">
+              <Container>
+                <Tilt options={{ max: 25 }}>
+                  <Card>
+                    <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                    <a className="text-dark text-decoration-none" href="http://www.famzsolutions.com/" target="_blank" rel="noopener noreferrer">
+                    <Card.Img variant="top" className="img-resize" src={L_logofamz} alt="Emcentrix logo" />
+                            </a>
+                      
+                    </Card.Header>
+                    <Card.Body className="d-flex justify-content-center flex-column">
+                      <div>
+                        <Card.Title className="text-center">Software Engineer</Card.Title>
+                      </div>
+                      <div>
+                        <Card.Text className="text-center style">
+                          {/* <strong className="body-title-style ">Full Stack Developer</strong> */}
+                          <br />
+                          <strong>Languages & Technologies:</strong> ASP.NET, WebForm, DOTNET, C#, MS-SQL, ADO.NET, JavaScript,JQuery 
+                          <br />
+                          <strong>Duration:</strong> Jan 2013 - April 2013
+                          <br/>
+                          <strong> Description </strong>
+                          <ul className="text-left">
+                            <li>Conceptualized, developed and integrated new system and software, resulting in increasing efficiency record-keeping, higher
+productivity as well as accuracy and effectiveness.
+                            </li>
+                            <li><strong>Application Designing & Development:</strong> Designed and tested applications enabling organizations and individuals to work
+effectively. Consulted with clients, writing code, solving compatibility issues, updating development process records,
+eliminating technical problems, and collaborating with the development team.
+                            </li>
+
+  
+
+                            <li><strong>Testing Modules: </strong>  Directed all functions and activities associated with compliance to resource requirements for Testing &
+Quality Assurance to ensure appropriate balance between tactical and strategic demands.
+                            </li>
+                            <li><strong>Database Analysis & Design: </strong> Competed technical challenges related to the test cases and test scripts derived from the
+system documentation and technical functional specifications.
+                            </li>
+
+                           
+                            
+      
+                          </ul>
+                          
+                          
+                        </Card.Text>
+                      </div>
+                    </Card.Body>
+                  </Card>
+                </Tilt>
+              </Container>
+            </Jumbotron>
+
+
+              {/* Experience 3 */}
+              <Jumbotron className="jumbo-style">
+              <Container>
+                <Tilt options={{ max: 25 }}>
+                  <Card>
+                    <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                    <a className="text-dark text-decoration-none" href="http://deraitsolutions.com/" target="_blank" rel="noopener noreferrer">
+                    <Card.Img variant="top" className="img-resize" src={L_logoDIT} alt="Emcentrix logo" />
+                            </a>
+                      
+                    </Card.Header>
+                    <Card.Body className="d-flex justify-content-center flex-column">
+                      <div>
+                        <Card.Title className="text-center">Jr.Software Engineer</Card.Title>
+                      </div>
+                      <div>
+                        <Card.Text className="text-center style">
+                          {/* <strong className="body-title-style ">Full Stack Developer</strong> */}
+                          <br />
+                          <strong>Languages & Technologies:</strong> ASP.NET, WebForm, DOTNET, C#, MS-SQL, ADO.NET, JavaScript,JQuery 
+                          <br />
+                          <strong>Duration:</strong> December 2011 - December 2012
+                          <br/>
+                          <strong> Description </strong>
+                          <ul className="text-left">
+                            <li>Designed and implemented software systems; updated software systems, making improvement suggestions, collaborated with
+analysts and designers, testing applications, writing training manuals, and making sure projects accomplished in time and within
+budget.
+
+                            </li>
+                            <li><strong>Application Designing & Development:</strong> Designed and developed new applications and all Peripheral processes.
+
+                            </li>
+
+  
+
+                            <li><strong>Learn new technologies: </strong>   Acquired and utilized knowledge of emerging technologies to utilize in engineering.
+
+                            </li>
+                          
                           </ul>
                           
                           

@@ -14,6 +14,7 @@ import Container from "react-bootstrap/Container";
 import bgImages from './assets/img/parallex/background.webp';
 import TechnicalSkills from './pages/skills/TechnicalSkills';
 import Experience from './pages/experience/experience.component';
+import Project from './components/Projects/Project.Component';
 
 const App=() => {
   return (
@@ -56,6 +57,13 @@ const App=() => {
           </Fade>
         </Container>
       </div>
+
+      <Container className="container-box rounded">
+        <Slide bottom duration={500}>
+          <hr />
+          <Project />
+        </Slide>
+      </Container>
     </div>
   );
 }
