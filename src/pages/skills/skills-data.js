@@ -1,30 +1,41 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_SASS from "../../assets/img/skills/sass-1.svg";
+// import L_SASS from "../../assets/img/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+// import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_FLASK from "../../assets/img/skills/flask.svg";
+
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../../assets/img/skills/heroku.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
-import L_GOLANG from "../../assets/img/skills/go-6.svg";
+
 import L_PYTHON from "../../assets/img/skills/python.svg";
 import L_ASPCore from "../../assets/img/skills/ASPCore.svg";
 import L_ASPMVC from "../../assets/img/skills/ASPMVC.svg";
+import L_adonet from "../../assets/img/skills/adonet-.jpg"
+import L_CSharp from "../../assets/img/skills/CSharp.jpg"
+
+import L_window from "../../assets/img/skills/window.jpg"
+import L_Setup from "../../assets/img/skills/setup.png"
+import L_VS from "../../assets/img/skills/visual.jpg"
+import L_VSCode from "../../assets/img/skills/vscode.png"
+import L_MSAzure from "../../assets/img/skills/MSAzure.png"
+import L_xml from "../../assets/img/skills/xml-2.png"
+import L_AJAX from "../../assets/img/skills/AJAX-Logo.svg";
+import L_perforce from "../../assets/img/skills/perforce.webp";
+import L_DevOps from "../../assets/img/skills/DevOps.png";
+import MicsoftLogo from '../../assets/img/skills/microsoft-logo-svg-vector.svg'
+
 
 export const skills = {
   frontend: [
@@ -96,6 +107,7 @@ export const skills = {
     },
     
   ],
+ 
 
   backend: [
     // {
@@ -117,36 +129,56 @@ export const skills = {
       skillName: "ASP.NET MVC",
      },
     {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
+      link: "https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/",
+      imgAltText: "ADO.NET",
+      imgSrc: L_adonet,
+      skillName: "ADO.NET",
     },
     {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
+      link: "",
+      imgAltText: "Window Services",
+      imgSrc: L_window,
+      skillName: "Window Services",
     },
     {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
+      link: "https://docs.microsoft.com/en-us/aspnet/core/",
+      imgAltText: "Web API",
+      imgSrc: L_ASPCore,
+      skillName: "Web API",
+    },
+    {
+      link: "",
+      imgAltText: "MSI",
+      imgSrc: L_Setup,
+      skillName: "MSI Setup",
+    },
+    {
+      link: "https://azure.microsoft.com/en-us/",
+      imgAltText: "MSAzure",
+      imgSrc: L_MSAzure,
+      skillName: "MS Azure",
+    },
+    {
+      link: "https://visualstudio.microsoft.com/",
+      imgAltText: "Visual Studio",
+      imgSrc: L_VS,
+      skillName: "Visual Studio",
+    },
+
+    {
+      link: "https://visualstudio.microsoft.com/",
+      imgAltText: "Visual Code",
+      imgSrc: L_VSCode,
+      skillName: "Visual Code",
     },
   ],
   hostingPlatforms: [
+   
     {
-      link: "https://www.heroku.com/",
-      imgAltText: "Heroku",
-      imgSrc: L_HEROKU,
-      skillName: "Heroku",
-    },
-    {
-      link: "https://www.digitalocean.com/",
-      imgAltText: "Digital Ocean",
-      imgSrc: L_DIGITAL_OCEAN,
-      skillName: "Digital Ocean",
+      link: "https://azure.microsoft.com/en-us/",
+      imgAltText: "MSAzure",
+      imgSrc: L_MSAzure,
+      skillName: "MS Azure",
     },
     {
       link: "https://pages.github.com/",
@@ -154,8 +186,15 @@ export const skills = {
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+ 
   ],
   programmingLanguages: [
+    {
+      link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      imgAltText: "Golang",
+      imgSrc: L_CSharp,
+      skillName: "C#",
+    },
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
@@ -175,19 +214,62 @@ export const skills = {
       skillName: "Python",
     },
     {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
+      link: "",
+      imgAltText: "XML",
+      imgSrc: L_xml,
+      skillName: "XML",
     },
-  ],
-  databases: [
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
+      link: "",
+      imgAltText: "AJAX",
+      imgSrc: L_AJAX,
+      skillName: "AJAX",
     },
+
+    {
+      link: "",
+      imgAltText: "SQL",
+      imgSrc: L_MSSQL,
+      skillName: "SQL",
+    },
+    
+  ],
+  framework: [
+   
+    {
+   link: "https://nodejs.org/en/",
+  imgAltText: "NodeJs",
+   imgSrc: L_NODE_JS,
+   skillName: "Node.js",
+ },
+ {
+   link: "https://dotnet.microsoft.com/download/dotnet-framework/",
+   imgAltText: ".NET Framework",
+   imgSrc: MicsoftLogo,
+   skillName: ".NET Framework",
+ },
+ {
+   link: "https://dotnet.microsoft.com/download/dotnet-framework/",
+   imgAltText: ".NET CORE",
+   imgSrc: MicsoftLogo,
+   skillName: ".NET CORE",
+ },
+ {
+   link: "https://dotnet.microsoft.com/download/dotnet-framework/",
+   imgAltText: "EntityFramework",
+   imgSrc: MicsoftLogo,
+   skillName: "EntityFramework",
+ },
+ {
+   link: "https://dotnet.microsoft.com/download/dotnet-framework/",
+   imgAltText: "EntityFrameworkCore",
+   imgSrc: MicsoftLogo,
+   skillName: "EntityFrameworkCore",
+ },
+
+],
+  databases: [
+   
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",
@@ -208,5 +290,18 @@ export const skills = {
       imgSrc: L_GIT,
       skillName: "GIT",
     },
+    {
+      link: "https://azure.microsoft.com/en-us/",
+      imgAltText: "DevOps",
+      imgSrc: L_DevOps,
+      skillName: "DevOps",
+    },   
+    {
+      link: "https://www.perforce.com/",
+      imgAltText: "P4",
+      imgSrc: L_perforce,
+      skillName: "P4",
+    },
+    
   ],
 };

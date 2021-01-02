@@ -15,11 +15,15 @@ import bgImages from './assets/img/parallex/background.webp';
 import TechnicalSkills from './pages/skills/TechnicalSkills';
 import Experience from './pages/experience/experience.component';
 import Project from './components/Projects/Project.Component';
+import FooterPanel from './components/footer/footer.component';
+import ContactMe from './pages/contact/contact.form.component';
+
 
 const App=() => {
   return (
     <div className="App" style={{ position: "relative" }}>
      <Mynavbar/>
+     
      <MyCarousel />
      <TitleMessage />
      <ScrollDwon />
@@ -64,6 +68,16 @@ const App=() => {
           <Project />
         </Slide>
       </Container>
+
+      <Container className="container-box rounded">
+        <Fade duration={500}>
+          <hr />
+          <ContactMe />
+        </Fade>
+      </Container>
+
+      <hr />
+      <FooterPanel />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import Slide1 from '../../assets/img/carousal/slide1.webp'
-import Slide2 from '../../assets/img/carousal/slide2.webp'
 import Slide3 from '../../assets/img/carousal/slide3.webp'
+import Slide2 from '../../assets/img/carousal/slide2.jpg'
+import Slide1 from '../../assets/img/carousal/slide1.jpg'
 import './my-carousel.style.css'
 const MyCarousel = () => {
     return (

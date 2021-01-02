@@ -8,7 +8,7 @@ import './navbar.style.css';
         <>
             <Navbar
         fixed="top"
-        bg="dark"
+        bg="primary"
         variant="dark"
         expand="md"
         className="animate-navbar nav-theme justify-content-between"
