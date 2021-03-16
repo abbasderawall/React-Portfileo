@@ -8,8 +8,23 @@ import L_logofamz from "../../assets/img/experience/logofamz.svg";
 import L_logoDIT from "../../assets/img/experience/logoDIT.svg"
 import Tilt from "react-tilt";
 import "./experience.style.css";
+import("react-facebook-pixel");
 
 export class Experience extends Component {
+
+  componentDidMount (){
+
+    if (typeof window !== "undefined") {
+      if (window.fbq != null) { 
+        window.fbq('track', 'PageView')
+      }
+    }
+
+  }
+
+     
+    
+  
     render() {
         return (
             <div id="experience">
