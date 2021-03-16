@@ -6,12 +6,11 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from './themes/theme'
 
 ReactDOM.render(
-    window.fbq('track', 'PageView'),
+   
   <ThemeProvider theme={theme}>
     <App />
   </ThemeProvider>,
   
- 
   document.getElementById('root')
   
 );
