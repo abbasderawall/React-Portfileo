@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfileo/static/css/main.515ad2c1.chunk.css",
-    "main.js": "/React-Portfileo/static/js/main.4cbf6cfc.chunk.js",
-    "main.js.map": "/React-Portfileo/static/js/main.4cbf6cfc.chunk.js.map",
+    "main.js": "/React-Portfileo/static/js/main.0bd4692f.chunk.js",
+    "main.js.map": "/React-Portfileo/static/js/main.0bd4692f.chunk.js.map",
     "runtime-main.js": "/React-Portfileo/static/js/runtime-main.0e39a795.js",
     "runtime-main.js.map": "/React-Portfileo/static/js/runtime-main.0e39a795.js.map",
     "static/js/2.f92268db.chunk.js": "/React-Portfileo/static/js/2.f92268db.chunk.js",
@@ -65,6 +65,6 @@
     "static/js/runtime-main.0e39a795.js",
     "static/js/2.f92268db.chunk.js",
     "static/css/main.515ad2c1.chunk.css",
-    "static/js/main.4cbf6cfc.chunk.js"
+    "static/js/main.0bd4692f.chunk.js"
   ]
 }
