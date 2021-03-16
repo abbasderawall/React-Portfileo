@@ -1,7 +1,7 @@
 
 import './App.css';
 //Components
-import React from "react";
+import React, { useEffect } from "react";
 import Mynavbar from './components/navbar/navbar.component'
 import MyCarousel from './components/carousel.components/my-carousel.compnent'
 import TitleMessage from './components/title-message/title-message.compnent';
@@ -19,9 +19,19 @@ import FooterPanel from './components/footer/footer.component';
 import ContactMe from './pages/contact/contact.form.component';
 
 
+
 const App=() => {
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      if (window.fbq != null) { 
+        window.fbq('init', '489527475541294');    
+        window.fbq('track', 'PageView')
+      }
+    }
+  });
   return (
     <div className="App" style={{ position: "relative" }}>
+       
      <Mynavbar/>
      
      <MyCarousel />
@@ -78,6 +88,7 @@ const App=() => {
 
       <hr />
       <FooterPanel />
+     
     </div>
   );
 }
