@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfileo/static/css/main.8d5f3ff8.chunk.css",
-    "main.js": "/React-Portfileo/static/js/main.51c4b127.chunk.js",
-    "main.js.map": "/React-Portfileo/static/js/main.51c4b127.chunk.js.map",
-    "runtime-main.js": "/React-Portfileo/static/js/runtime-main.4153e651.js",
-    "runtime-main.js.map": "/React-Portfileo/static/js/runtime-main.4153e651.js.map",
+    "main.css": "/React-Portfileo/static/css/main.515ad2c1.chunk.css",
+    "main.js": "/React-Portfileo/static/js/main.4cbf6cfc.chunk.js",
+    "main.js.map": "/React-Portfileo/static/js/main.4cbf6cfc.chunk.js.map",
+    "runtime-main.js": "/React-Portfileo/static/js/runtime-main.0e39a795.js",
+    "runtime-main.js.map": "/React-Portfileo/static/js/runtime-main.0e39a795.js.map",
     "static/js/2.f92268db.chunk.js": "/React-Portfileo/static/js/2.f92268db.chunk.js",
     "static/js/2.f92268db.chunk.js.map": "/React-Portfileo/static/js/2.f92268db.chunk.js.map",
+    "static/js/3.0ae0573d.chunk.js": "/React-Portfileo/static/js/3.0ae0573d.chunk.js",
+    "static/js/3.0ae0573d.chunk.js.map": "/React-Portfileo/static/js/3.0ae0573d.chunk.js.map",
     "index.html": "/React-Portfileo/index.html",
-    "static/css/main.8d5f3ff8.chunk.css.map": "/React-Portfileo/static/css/main.8d5f3ff8.chunk.css.map",
+    "static/css/main.515ad2c1.chunk.css.map": "/React-Portfileo/static/css/main.515ad2c1.chunk.css.map",
     "static/js/2.f92268db.chunk.js.LICENSE.txt": "/React-Portfileo/static/js/2.f92268db.chunk.js.LICENSE.txt",
     "static/media/AJAX-Logo.bff68201.svg": "/React-Portfileo/static/media/AJAX-Logo.bff68201.svg",
     "static/media/ASPCore.c09e8d09.svg": "/React-Portfileo/static/media/ASPCore.c09e8d09.svg",
@@ -38,7 +40,7 @@
     "static/media/logofamz.b36ba34e.svg": "/React-Portfileo/static/media/logofamz.b36ba34e.svg",
     "static/media/logow.a88d1078.png": "/React-Portfileo/static/media/logow.a88d1078.png",
     "static/media/material-ui-1.fd510ed8.svg": "/React-Portfileo/static/media/material-ui-1.fd510ed8.svg",
-    "static/media/microsoft-logo-svg-vector.dea4d21c.svg": "/React-Portfileo/static/media/microsoft-logo-svg-vector.dea4d21c.svg",
+    "static/media/microsoft-logo-svg-vector.9fb3a538.svg": "/React-Portfileo/static/media/microsoft-logo-svg-vector.9fb3a538.svg",
     "static/media/mongodb.d89a6eeb.svg": "/React-Portfileo/static/media/mongodb.d89a6eeb.svg",
     "static/media/mssql.18f84630.svg": "/React-Portfileo/static/media/mssql.18f84630.svg",
     "static/media/nodejs.52cbf9a8.svg": "/React-Portfileo/static/media/nodejs.52cbf9a8.svg",
@@ -46,7 +48,7 @@
     "static/media/postgresql.ae92b576.svg": "/React-Portfileo/static/media/postgresql.ae92b576.svg",
     "static/media/profile.cb4591a7.jpg": "/React-Portfileo/static/media/profile.cb4591a7.jpg",
     "static/media/python.e6d7dc73.svg": "/React-Portfileo/static/media/python.e6d7dc73.svg",
-    "static/media/react-bootstrap.534ba574.svg": "/React-Portfileo/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react-bootstrap.1c7d4dd1.svg": "/React-Portfileo/static/media/react-bootstrap.1c7d4dd1.svg",
     "static/media/react-router.a87b7227.svg": "/React-Portfileo/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/React-Portfileo/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/React-Portfileo/static/media/redux.0e4fb1c8.svg",
@@ -54,15 +56,15 @@
     "static/media/slide1.4a3bc620.jpg": "/React-Portfileo/static/media/slide1.4a3bc620.jpg",
     "static/media/slide2.9a2dc644.jpg": "/React-Portfileo/static/media/slide2.9a2dc644.jpg",
     "static/media/slide3.14619b04.webp": "/React-Portfileo/static/media/slide3.14619b04.webp",
-    "static/media/styled-components.2e00d138.svg": "/React-Portfileo/static/media/styled-components.2e00d138.svg",
+    "static/media/styled-components.a5fa325c.svg": "/React-Portfileo/static/media/styled-components.a5fa325c.svg",
     "static/media/typescript.a6305a73.svg": "/React-Portfileo/static/media/typescript.a6305a73.svg",
     "static/media/vscode.8c45b327.png": "/React-Portfileo/static/media/vscode.8c45b327.png",
     "static/media/xml-2.b860db9b.png": "/React-Portfileo/static/media/xml-2.b860db9b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4153e651.js",
+    "static/js/runtime-main.0e39a795.js",
     "static/js/2.f92268db.chunk.js",
-    "static/css/main.8d5f3ff8.chunk.css",
-    "static/js/main.51c4b127.chunk.js"
+    "static/css/main.515ad2c1.chunk.css",
+    "static/js/main.4cbf6cfc.chunk.js"
   ]
 }
