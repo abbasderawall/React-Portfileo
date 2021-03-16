@@ -12,16 +12,16 @@ import("react-facebook-pixel");
 
 export class Experience extends Component {
 
-  componentDidMount (){
+  // componentDidMount (){
 
-    if (typeof window !== "undefined") {
-      if (window.fbq != null) { 
+  //   if (typeof window !== "undefined") {
+  //     if (window.fbq != null) { 
            
-        window.fbq('track', 'PageView')
-      }
-    }
+  //       window.fbq('track', 'PageView')
+  //     }
+  //   }
 
-  }
+  // }
 
      
     

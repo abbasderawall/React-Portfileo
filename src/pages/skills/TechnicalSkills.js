@@ -12,16 +12,16 @@ import "./skills-style.css";
 
  class TechnicalSkills extends Component {
 
-  componentDidMount (){
+  // componentDidMount (){
 
-    if (typeof window !== "undefined") {
-      if (window.fbq != null) { 
-        window.fbq('init', '489527475541294');    
-        window.fbq('track', 'PageView')
-      }
-    }
+  //   if (typeof window !== "undefined") {
+  //     if (window.fbq != null) { 
+         
+  //       window.fbq('track', 'PageView')
+  //     }
+  //   }
 
-  }
+  // }
     render() {
         return (
             <div className="pt-3 pb-3" id="skills">
