@@ -16,6 +16,7 @@ export class Experience extends Component {
 
     if (typeof window !== "undefined") {
       if (window.fbq != null) { 
+           
         window.fbq('track', 'PageView')
       }
     }
