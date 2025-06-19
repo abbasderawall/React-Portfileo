@@ -1,4 +1,3 @@
-
 import './App.css';
 //Components
 import React, { useEffect } from "react";
@@ -7,8 +6,6 @@ import MyCarousel from './components/carousel.components/my-carousel.compnent'
 import TitleMessage from './components/title-message/title-message.compnent';
 import ScrollDwon from './components/scroll-down/scroll-dwon.component';
 import About from './pages/about/about-component';
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
 import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
 import bgImages from './assets/img/parallex/background.webp';
@@ -19,6 +16,7 @@ import FooterPanel from './components/footer/footer.component';
 import ContactMe from './pages/contact/contact.form.component';
 import ReactPixel from 'react-facebook-pixel';
 import {config} from '../src/config';
+
 const advancedMatching = { em: 'abbas.derawall@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
   autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
@@ -66,46 +64,25 @@ const App=() => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
               <About/>
-              </Fade>
             </Container>
           </div>
         </Parallax>
-
-       
       </div>
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <TechnicalSkills/>
-        </Slide>
+        <TechnicalSkills/>
       </Container>
-    
       <div>
         <Container className="container-box rounded">
-          <Fade duration={500}>
-            <hr />
-
-            <Experience/>
-          </Fade>
+          <Experience/>
         </Container>
       </div>
-
       <Container className="container-box rounded">
-        <Slide bottom duration={500}>
-          <hr />
-          <Project />
-        </Slide>
+        <Project />
       </Container>
-
       <Container className="container-box rounded">
-        <Fade duration={500}>
-          <hr />
-          <ContactMe />
-        </Fade>
+        <ContactMe />
       </Container>
-
       <hr />
       <FooterPanel />
      

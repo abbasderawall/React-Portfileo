@@ -5,7 +5,6 @@ import Card from "react-bootstrap/Card";
 import L_EMClogo from "../../assets/img/experience/EMClogo.svg";
 import L_logofamz from "../../assets/img/experience/logofamz.svg";
 import L_logoDIT from "../../assets/img/experience/logoDIT.svg"
-import Tilt from "react-tilt";
 import "./experience.style.css";
 import("react-facebook-pixel");
 
@@ -19,7 +18,7 @@ export class Experience extends Component {
             {/* Experience 1 - Welbee */}
             <Jumbotron className="jumbo-style">
               <Container>
-                <Tilt options={{ max: 25 }}>
+                <>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <a className="text-dark text-decoration-none" href="https://welbee.co.uk/" target="_blank" rel="noopener noreferrer">
@@ -59,14 +58,14 @@ export class Experience extends Component {
                       </div>
                     </Card.Body>
                   </Card>
-                </Tilt>
+                </>
               </Container>
             </Jumbotron>
 
             {/* Experience 2 - Emcentrix */}
             <Jumbotron className="jumbo-style">
               <Container>
-                <Tilt options={{ max: 25 }}>
+                <>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <a className="text-dark text-decoration-none" href="https://www.emcentrix.com/" target="_blank" rel="noopener noreferrer">
@@ -114,13 +113,13 @@ export class Experience extends Component {
 
               
                   </Card>
-                </Tilt>
+                </>
               </Container>
             </Jumbotron>
             {/* Experience 3 - Famz Solutions */}
             <Jumbotron className="jumbo-style">
               <Container>
-                <Tilt options={{ max: 25 }}>
+                <>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <a className="text-dark text-decoration-none" href="http://www.famzsolutions.com/" target="_blank" rel="noopener noreferrer">
@@ -169,7 +168,7 @@ system documentation and technical functional specifications.
                       </div>
                     </Card.Body>
                   </Card>
-                </Tilt>
+                </>
               </Container>
             </Jumbotron>
 
@@ -177,7 +176,7 @@ system documentation and technical functional specifications.
               {/* Experience 4 - Dera IT Solutions */}
               <Jumbotron className="jumbo-style">
               <Container>
-                <Tilt options={{ max: 25 }}>
+                <>
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <a className="text-dark text-decoration-none" href="http://deraitsolutions.com/" target="_blank" rel="noopener noreferrer">
@@ -221,7 +220,7 @@ budget.
                       </div>
                     </Card.Body>
                   </Card>
-                </Tilt>
+                </>
               </Container>
             </Jumbotron>
           </div>
