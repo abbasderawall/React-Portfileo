@@ -29,7 +29,7 @@ const About = () => {
                            <p>Hi there! <strong>I am Muhammad Abbas</strong></p>
                            <p>
 
-                           Technically sophisticated Software Engineer + 8 years of experience in the full software development, Web Development, Database Analysis and Design lifecycle – from concept through delivery of next-generation applications and customizable solutions.
+                           Technically sophisticated Software Engineer + 13 years of experience in the full software development, Web Development, Database Analysis and Design lifecycle – from concept through delivery of next-generation applications and customizable solutions.
 Strong professional background creating and devising applications in strong coordination with developer teams, expert in advising junior programmers, consulting with clients, proposing business solutions, troubleshooting, and handling projects.
 Expert in advanced development methodologies, Database Analysis & Design, tools and processes contributing to the design and rollout of cutting-edge software applications.
 Possess acute knowledge including Software Development Life Cycle (SDLC), architecture, software engineering, implementation, and testing.
