@@ -23,7 +23,7 @@ export class Experience extends Component {
                   <Card>
                     <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
                     <a className="text-dark text-decoration-none" href="https://welbee.co.uk/" target="_blank" rel="noopener noreferrer">
-                    <Card.Img variant="top" className="img-resize" src="https://welbee.co.uk/wp-content/uploads/2021/03/welbee-logo.png" alt="Welbee logo" />
+                    <Card.Img variant="top" className="img-resize" src="https://welbee.co.uk/wp-content/uploads/2025/01/Welbee-New-Logo-copy.png" alt="Welbee logo" />
                             </a>
                       
                     </Card.Header>
@@ -34,7 +34,7 @@ export class Experience extends Component {
                       <div>
                         <Card.Text className="text-center style">
                           <br />
-                          <strong>Languages & Technologies:</strong> .NET Core APIs, React JS, AWS Cloud, MySQL, Microservices
+                          <strong>Languages & Technologies:</strong> .NET Core APIs, React JS,Next JS, AWS Cloud, GCP, BigQuery, DataForm, MySQL, Microservices
                           <br />
                           <strong>Duration:</strong> March 2021 - Present
                           <br/>
