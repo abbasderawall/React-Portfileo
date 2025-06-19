@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react'
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
@@ -11,25 +10,60 @@ import "./experience.style.css";
 import("react-facebook-pixel");
 
 export class Experience extends Component {
-
-  // componentDidMount (){
-
-  //   if (typeof window !== "undefined") {
-  //     if (window.fbq != null) { 
-           
-  //       window.fbq('track', 'PageView')
-  //     }
-  //   }
-
-  // }
-
-     
-    
   
     render() {
         return (
             <div id="experience">
             <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+            
+            {/* Experience 1 - Welbee */}
+            <Jumbotron className="jumbo-style">
+              <Container>
+                <Tilt options={{ max: 25 }}>
+                  <Card>
+                    <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                    <a className="text-dark text-decoration-none" href="https://welbee.co.uk/" target="_blank" rel="noopener noreferrer">
+                    <Card.Img variant="top" className="img-resize" src="https://welbee.co.uk/wp-content/uploads/2021/03/welbee-logo.png" alt="Welbee logo" />
+                            </a>
+                      
+                    </Card.Header>
+                    <Card.Body className="d-flex justify-content-center flex-column">
+                      <div>
+                        <Card.Title className="text-center">Tech Lead - Senior Full-Stack Developer</Card.Title>
+                      </div>
+                      <div>
+                        <Card.Text className="text-center style">
+                          <br />
+                          <strong>Languages & Technologies:</strong> .NET Core APIs, React JS, AWS Cloud, MySQL, Microservices
+                          <br />
+                          <strong>Duration:</strong> March 2021 - Present
+                          <br/>
+                          <strong>Location:</strong> Liverpool, UK (Remote)
+                          <br/>
+                          <strong> Description </strong>
+                          <ul className="text-left">
+                            <li>Developed and maintained the company's technical infrastructure and products, performing additional relevant duties as agreed with the Company leadership team to meet business needs.
+                            </li>
+                            <li><strong>Production Application Management:</strong> Worked on Welbee's production app and products running on a day-to-day basis and led the work to enhance and develop the products.
+                            </li>
+                            <li><strong>Technical Leadership:</strong> Led development initiatives and provided technical guidance to the development team while ensuring high-quality deliverables.
+                            </li>
+                            <li><strong>Cloud Infrastructure:</strong> Managed and optimized AWS cloud infrastructure to ensure scalability and performance of applications.
+                            </li>
+                            <li><strong>Microservices Architecture:</strong> Designed and implemented microservices-based solutions to improve system modularity and maintainability.
+                            </li>
+                          </ul>
+                          
+                          
+                        </Card.Text>
+                      </div>
+                    </Card.Body>
+                  </Card>
+                </Tilt>
+              </Container>
+            </Jumbotron>
+
+            {/* Experience 2 - Emcentrix */}
             <Jumbotron className="jumbo-style">
               <Container>
                 <Tilt options={{ max: 25 }}>
@@ -83,7 +117,7 @@ export class Experience extends Component {
                 </Tilt>
               </Container>
             </Jumbotron>
-            {/* Experience 2 */}
+            {/* Experience 3 - Famz Solutions */}
             <Jumbotron className="jumbo-style">
               <Container>
                 <Tilt options={{ max: 25 }}>
@@ -140,7 +174,7 @@ system documentation and technical functional specifications.
             </Jumbotron>
 
 
-              {/* Experience 3 */}
+              {/* Experience 4 - Dera IT Solutions */}
               <Jumbotron className="jumbo-style">
               <Container>
                 <Tilt options={{ max: 25 }}>
@@ -195,4 +229,4 @@ budget.
     }
 }
 
-export default Experience
+export default Experience 
